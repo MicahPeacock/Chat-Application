@@ -1,0 +1,13 @@
+{
+  "name": "SENG513_assignment3",
+  "version": "1.0.0",
+  "description": "A dumb webpage chat app",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "moment": "^2.24.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  }
+}

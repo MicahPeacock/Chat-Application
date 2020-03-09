@@ -1,0 +1,96 @@
+#window {
+    box-shadow: 0 0 5px 2px #2A2A2F;
+}
+
+#chat {
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+#messages {
+    min-height: 608px;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+#messages li {
+    color: #DDDDDD;
+    padding: 5px 10px;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border-color: rgba(42, 42, 47, 0.50) transparent;
+    width: 100%;
+}
+
+#messages .name {
+    font-size: 18px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+#messages .timestamp {
+    font-size: 12px;
+    vertical-align: text-bottom;
+    padding: 0;
+    margin: 0;
+}
+
+#messages .text {
+    font-size: 14px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    padding: 5px 0;
+    margin: 0;
+}
+
+#users {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 5px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#users li {
+    color: #DDDDDD;
+    padding: 5px 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+#input {
+    font-family: 'Montserrat', sans-serif;
+    color: #DDDDDD;
+    outline: none;
+}
+
+#input input {
+    border: 1px solid #2A2A2F;
+    background-color: #4A4A4F;
+}
+
+#input button {
+    background-color: #2A2A2F;
+    border-color: #2A2A2F;
+}
+
+#input .form-control {
+    color: #DDDDDD;
+}
+
+#input ::placeholder {
+    color: #DDDDDD;
+    opacity: 50%;
+}
