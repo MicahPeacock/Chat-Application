@@ -1,3 +1,10 @@
+/*
+Name: Micah Peacock
+UCID: 30079242
+Email: micah.peacock@ucalgary.ca
+Section: Lab 01
+ */
+
 "use strict";
 
 const express = require('express');
